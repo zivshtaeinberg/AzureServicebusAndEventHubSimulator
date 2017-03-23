@@ -12,6 +12,12 @@ You can clone this repo and create your own custom logic, just create a new clas
 
 There's also console app for testing locally.
 
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image1.PNG)
+
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image2.PNG)
+
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image3.PNG)
+
 ![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/ArcFile.PNG)
 
 ![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/AppIns.PNG)
