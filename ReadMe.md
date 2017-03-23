@@ -1,6 +1,16 @@
 # Azure Service Bus & Event Hub Simulator
 
-## Today there are so many questions about Cloud Solution Architecture regarding best performance:
+Today there are so many questions about Azure Cloud Solution Architecture Ques products & performance.
+## Ques Products:
+1. Service Bus Q.
+2. Service Bus Topics & Subscriptions.
+3. Event Hub & Stream Analytics.
+4. APIM.
+
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image1.PNG)
+
+## Here are some of the highlights questions:
+
 1. What to use Service Bus or Event Hub?
 2. Does the message/Data or file size impacts the performance?
 3. Service Bus Q or Topics & Subscriptions?
@@ -11,7 +21,10 @@
 8. What should be my Paas products Tier?
 9. Etc....
 
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image1.PNG)
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image2.PNG)
+
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image3.PNG)
+
 
 This solution was developed following our integration and the impact we had with real customers.
 The solution Uses & Monitor Azure Paas products: Service Bus Q & Topics, Event Hub, Stream Analytics and APIM.
@@ -20,13 +33,7 @@ Scaling UP & Down VM'S with the Application Tool or Triggered by timer.
 
 The Tool is based on WinForm Application.
 
-
 You can clone this repo and create your own custom logic, just create a new class library and implement [ILoadWatcher](https://github.com/guybartal/AzureVmssCustomAutoScale/blob/master/vmssAutoScale.Interfaces/ILoadWatcher.cs) interface.
-
-
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image2.PNG)
-
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image3.PNG)
 
 
 ## Requirements: Please select by you Cloud Solution Architect dilemma
