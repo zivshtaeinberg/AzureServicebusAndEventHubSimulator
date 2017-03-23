@@ -1,13 +1,13 @@
 # Azure Service Bus & Event Hub Simulator
 
-## Today there are so many questions about Cloude Solution Architecture regarding best performance:
+## Today there are so many questions about Cloud Solution Architecture regarding best performance:
 1. What to use Service Bus or Event Hub?
-2. Doesn the message/Data or file size impacts the performance?
+2. Does the message/Data or file size impacts the performance?
 3. Service Bus Q or Topics & Subscriptions?
 4. Service Bus with multiple Subscription or dual Service Bus?
 5. Service Bus API: Send or AsyncSend?
 6. How do I monitor my solution?
-7. After finding the best peroformance, how does my system looks like?
+7. After finding the best performance, how does my system looks like?
 8. What should be my Paas products Tier?
 9. Etc....
 
@@ -15,7 +15,7 @@
 
 This solution was developed following our integration and the impact we had with real customers.
 The solution Uses & Monitor Azure Paas products: Service Bus Q & Topics, Event Hub, Stream Analytics and APIM.
-Monitored by Application Insights & Other Log Capabilties.
+Monitored by Application Insights & Other Log Capabilities.
 Scaling UP & Down VM'S with the Application Tool or Triggered by timer.
 
 The Tool is based on WinForm Application.
@@ -29,7 +29,7 @@ You can clone this repo and create your own custom logic, just create a new clas
 ![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image3.PNG)
 
 
-## Requirements: Please select by you Cloud Solution Architect delema
+## Requirements: Please select by you Cloud Solution Architect dilemma
 * Service Bus Q.
 * Service Bus Topics & Subscriptions.
 * Event Hub & Stream Analytics.
@@ -46,7 +46,7 @@ You can clone this repo and create your own custom logic, just create a new clas
 * Create Application Insights.
 
 ## Scaling Logic Parameters
-* These paramters decides if input data is X & Y will the scaling will be up with Z VM'S or down.
+* These parameters decides if input data is X & Y will the scaling will be up with Z VM'S or down.
 * Please decide where to store the scaling logic parameters to be store, the options are Database or File.
 
 ## Deployment
