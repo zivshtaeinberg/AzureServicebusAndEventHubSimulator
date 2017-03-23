@@ -12,9 +12,9 @@ You can clone this repo and create your own custom logic, just create a new clas
 
 There's also console app for testing locally.
 
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureVmssCustomAutoScale/master/ArcFile.PNG)
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/ArcFile.PNG)
 
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureVmssCustomAutoScale/master/AppIns.PNG)
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/AppIns.PNG)
 
 ## Requirements
 * Azure Function App
