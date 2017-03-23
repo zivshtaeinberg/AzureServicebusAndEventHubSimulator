@@ -1,30 +1,43 @@
-# AzureServicebusAndEventHubSimulator
+# Azure Service Bus & Event Hub Simulator
 
-Currently Azure Virtual Machine Scale Sets (VMSS) doesn't support custom logic based [auto scaling](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-advanced-autoscale-virtual-machine-scale-sets).
+## Today there are so many questions about Cloude Solution Architecture regarding best performance:
+1. What to use Service Bus or Event Hub?
+2. Doesn the message/Data or file size impacts the performance?
+3. Service Bus Q or Topics & Subscriptions?
+4. Service Bus with multiple Subscription or dual Service Bus?
+5. Service Bus API: Send or AsyncSend?
+6. How do I monitor my solution?
+7. After finding the best peroformance, how does my system looks like?
+8. What should be my Paas products Tier?
+9. Etc....
 
-This solution was developed for real customer need,
-It based on Azure Function App which triggered by timer and samples ServiceBus or SQL Database stored procedure to get current load on VMSS,
-Azure Function then adds or removes VMs accordingly to configured threshold.
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image1.PNG)
 
-Please select the samples product: ServiceBus or SQL Database in the concole application project or in the Azure Function project.
+This solution was developed following our integration and the impact we had with real customers.
+The solution Uses & Monitor Azure Paas products: Service Bus Q & Topics, Event Hub, Stream Analytics and APIM.
+Monitored by Application Insights & Other Log Capabilties.
+Scaling UP & Down VM'S with the Application Tool or Triggered by timer.
+
+The Tool is based on WinForm Application.
+
 
 You can clone this repo and create your own custom logic, just create a new class library and implement [ILoadWatcher](https://github.com/guybartal/AzureVmssCustomAutoScale/blob/master/vmssAutoScale.Interfaces/ILoadWatcher.cs) interface.
 
-There's also console app for testing locally.
-
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image1.PNG)
 
 ![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image2.PNG)
 
 ![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image3.PNG)
 
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/ArcFile.PNG)
 
-![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/AppIns.PNG)
-
-## Requirements
+## Requirements: Please select by you Cloud Solution Architect delema
+* Service Bus Q.
+* Service Bus Topics & Subscriptions.
+* Event Hub & Stream Analytics.
+* APIM.
+* AAD - If security is required.
 * Azure Function App
 * VMSS
+
 * [Register](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration) a new application in Azure Active Directory (need to be global admin in order to do that)
 * Create application Key, save this secret, you will need that later for deployment
 * Give the application "Owner" role on VMSS
