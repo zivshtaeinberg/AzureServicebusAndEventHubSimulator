@@ -1,7 +1,7 @@
 # Azure Service Bus & Event Hub Simulator
 
 Today there are so many questions about Azure Cloud Solution Architecture Ques products, Custome Caching, Advanced Throttling & Performance.
-## Ques Products:
+## Products:
 1. Service Bus Q.
 2. Service Bus Topics & Subscriptions.
 3. Event Hub & Stream Analytics.
@@ -37,13 +37,15 @@ You can clone this repo and create your own custom logic, just create a new clas
 
 
 ## Requirements - Please select by your Cloud Solution Architect dilemma:
-* Service Bus Q.
-* Service Bus Topics & Subscriptions.
-* Event Hub & Stream Analytics.
-* APIM.
+* [Service Bus Q](https://docs.microsoft.com/en-us/azure/service-bus/)
+* [Service Bus Topics & Subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions)
+* [Event Hub & Stream Analytics](https://docs.microsoft.com/en-us/azure/event-hubs/)
+* [APIM](https://docs.microsoft.com/en-us/azure/api-management/)
 * AAD - If security is required.
 * Azure Function App.
 * VMSS.
+
+![alt tag](https://raw.githubusercontent.com/zivshtaeinberg/AzureServicebusAndEventHubSimulator/master/Image4.PNG)
 
 * [Register](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-app-registration) a new application in Azure Active Directory (need to be global admin in order to do that)
 * Create application Key, save this secret, you will need that later for deployment
