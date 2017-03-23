@@ -36,7 +36,7 @@ The Tool is based on WinForm Application.
 You can clone this repo and create your own custom logic, just create a new class library and implement [ILoadWatcher](https://github.com/guybartal/AzureVmssCustomAutoScale/blob/master/vmssAutoScale.Interfaces/ILoadWatcher.cs) interface.
 
 
-## Requirements: Please select by you Cloud Solution Architect dilemma
+## Requirements - Please select by your Cloud Solution Architect dilemma:
 * Service Bus Q.
 * Service Bus Topics & Subscriptions.
 * Event Hub & Stream Analytics.
